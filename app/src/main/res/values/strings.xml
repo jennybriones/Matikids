@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Matikids</string>
+    <string name="et_nombre">¿Como te llamas?</string>
+    <string name="boton">Jugar</string>
+
+    <string name="et_chances">Chances: </string>
+    <string name="jugador_nombre">Jugador: </string>
+    <string name="total_score">Score: 0</string>
+    <string name="boton_probar">Comprobar</string>
+    <string name="et_respuesta">Respuesta</string>
+</resources>

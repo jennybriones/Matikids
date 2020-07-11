@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.matikids">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity2Nivel1" android:configChanges="orientation|screenSize" />
+        <activity android:name=".MainActivity2Nivel2" android:configChanges="orientation|screenSize" />
+        <activity android:name=".MainActivity2Nivel3" android:configChanges="orientation|screenSize" />
+        <activity android:name=".MainActivity2Nivel4" android:configChanges="orientation|screenSize" />
+        <activity android:name=".MainActivity2Nivel5" android:configChanges="orientation|screenSize" />
+        <activity android:name=".MainActivity2Nivel6" android:configChanges="orientation|screenSize" />
+    </application>
+
+</manifest>
